@@ -26,3 +26,26 @@ print(" ")
 print(" ")
 read_csv=pd.read_csv('Day 1/dataframe/readme.csv')
 print(read_csv)
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+read_json = pd.read_json("Day 1/dataframe/readme.json")#read json
+print(read_json)
+cars_data.to_clipboard()#copies the text to the clipboard
+cars_data.to_json("cars.json")#exports to json file
+a=cars_data.to_numpy()#converts to numpy array
+print(a)
+x=cars_data.to_markdown()#returns a string
+print(x)
+print(type(x))
+print(cars_data.to_records(index=False))
+cars_data.to_csv("crs.csv",index=False)
