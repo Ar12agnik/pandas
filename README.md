@@ -14,19 +14,15 @@ Pandas allows us to analyze big data and make conclusions based on statistical t
 ## Getting Started with Pandas
 
 use this code to install pandas
- `'''pip3 install pandas'''`
+ `pip3 install pandas`
 
 Once installed it is ready to be used  as follows:
 
-'''
-
-**import** pandas
-
-mydataset = {
-  **'cars'**: [**"BMW"**, **"Volvo"**, **"Ford"**],
-  **'passings'**: [**3**, **7**, **2**]
+```python
+import pandasmydataset = {
+  'cars': ["BMW", "Volvo", "Ford"],
+  'passings': [3, 7, 2]
 }
-
 myvar = pandas.DataFrame(mydataset)
-
-print(myvar)'''
+print(myvar)
+```
