@@ -6,4 +6,8 @@ df['Date'] = pd.to_datetime(df['Date'],format='mixed')
 
 print(df.to_string())
 
-df.drpona(subst)
+df.dropna(subset = ['Date'],inplace = True )
+print(df.duplicated())
+df.drop_duplicates(inplace=True)
+print(df.duplicated())
+print(df.corr())
